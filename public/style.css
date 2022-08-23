@@ -45,6 +45,11 @@ color: #fff;
     z-index: 2;
     cursor: pointer;
   }
+  .logo{
+    width: 200px;
+    padding: 10px;
+    color:#24BFC0;
+  }
 }
 /* end nav */
 
@@ -1477,14 +1482,22 @@ textarea.input {
   margin: 1.5rem 0 2rem 0;
 }
 
-/* .information {
+.information {
   display: flex;
   color: #555;
   margin: 0.7rem 0;
   align-items: center;
   font-size: 0.95rem;
-} */
-
+}
+.fa-location-dot{
+  margin-right: 5px;
+}
+.fa-envelope{
+  margin-right: 5px;
+}
+.fa-phone{
+  margin-right: 5px;
+}
 .icon {
   width: 28px;
   margin-right: 0.7rem;

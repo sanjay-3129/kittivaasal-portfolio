@@ -44,7 +44,8 @@
    <!-- end main-banner text -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
-
+<!-- testimonal -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
   </head>
   <body>
     <!-- nav -->
@@ -57,7 +58,7 @@
         <li><a href="#contact-main">CONTACT</a></li>
       </ul>
     </nav>
-    <img src ="images/menu (2).png" id="menuBtn">
+    <img src ="images/menu-button-of-three-horizontal-lines.png" id="menuBtn">
     <!-- nav end -->
     <!-- main banner -->
  <!-- main banner -->
@@ -68,7 +69,7 @@
             <li><img src="/images/android (1).png" alt=""></li>
             <li><img src="/images/firebase.png" alt=""></li>
             <li><img src="/images/html5.png" alt=""></li>
-            <li><img src="/images/flutter-logo.png" alt=""></li>
+            <li><img src="/images/flutter" alt=""></li>
             <li><img src="/images/react.png" alt=""></li>
     </ul>
     <div class ="logo">
@@ -157,7 +158,7 @@
          </div>
          <div class="single_service-body">
           <h4 class="single_service-heading">Mobile App Development</h4>
-          <ul style="list-style:disc">
+          <ul class= "services_inner" style="list-style:disc">
             <li>Android and Iso development.</li>
                             <li>Software development.</li>
                             <li>Product development consultancy.</li>
@@ -179,7 +180,7 @@
          </div>
          <div class="single_service-body">
            <h4 class="single_service-heading">Web Development</h4>
-           <ul style="list-style:disc">
+           <ul class= "services_inner" style="list-style:disc">
             <li>Android and Iso development.</li>
             <li>Software development.</li>
             <li>Product development consultancy.</li>
@@ -215,7 +216,7 @@
         </div>
         <div class="single_service-body">
           <h4 class="single_service-heading">Supporting IOT & Embedded</h4>
-          <ul style="list-style:disc" >
+          <ul class= "services_inner" style="list-style:disc" >
             <li>Connectivity to already deployed devices.</li>
                             <li>Quick prototyping.</li>
                             <li>Cloud based IoT platform.</li>
@@ -237,7 +238,7 @@
         </div>
         <div class="single_service-body">
            <h4 class="single_service-heading">Machine Learning/AI</h4>
-           <ul style="list-style:disc" >
+           <ul class= "services_inner" style="list-style:disc" >
             <li>Interpret Complex Data.</li>
                             <li>Integrate & Deploy Machine Learning Engines.</li>
                             <li>Structured Data To Meaningful Insights.</li>
@@ -258,7 +259,7 @@
         </div>
        <div class="single_service-body">
           <h4 class="single_service-heading">Digital Marketing</h4>
-          <ul style="list-style: disc">
+          <ul class= "services_inner" style="list-style: disc">
             <li>SEO/SEM.</li>
             <li>Marketing Automation Social Media Marketing.</li>
             <li>Paid Media.</li>
@@ -310,24 +311,46 @@
               </div>
             </div>
             <div class="col-md-6">
-              <h1 class="head-tool text-center">Tools We Are <span>Specialized</span> </h1>
+              <h1 class="head-tool text-center">Our Tech Stack </h1>
               <div class = "Tool">
-              <div class="Tool-item"><img src="/images/react (1).png" class="Tools-logo"/></div>
-              <div class="Tool-item"><img src="/images/flutter.png" class="Tools-logo"/></div>
-              <div class="Tool-item"><img src="/images/javascript.png" class="Tools-logo"/></div>  
-              <div class="Tool-item"><img src="/images/kotlin.png" class="Tools-logo"/></div>
-              <div class="Tool-item"><img src="/images/java.png" class="Tools-logo"/></div>
-              <div class="Tool-item"><img src="/images/djangoproject.png" class="Tools-logo"/></div>  
-              <div class="Tool-item"><img src="/images/adobe-photoshop.png" class="Tools-logo"/></div>
-              <div class="Tool-item"><img src="/images/adobe-illustrator.png" class="Tools-logo"/></div>
-              <div class="Tool-item"><img src="/images/python.png" class="Tools-logo"/></div>  
-              <div class="Tool-item"><img src="/images/html.png" class="Tools-logo"/></div>
-              <div class="Tool-item"><img src="/images/css3.png" class="Tools-logo"/></div>
-              <div class="Tool-item"><img src="/images/nodejs.png" class="Tools-logo"/></div> 
-              <div class="Tool-item"><img src="/images/php.png" class="Tools-logo"/></div> 
-              <div class="Tool-item"><img src="/images/nextjs-icon.png" class="Tools-logo"/></div> 
-              <div class="Tool-item"><img src="/images/nestjs_logo_icon_169927.png" class="Tools-logo"/></div>  
-              <div class="Tool-item"><img src="/images/figma.png" class="Tools-logo"/></div>
+              <div class="Tool-item">
+                <img src="/images/react (1).png" class="Tools-logo"/>
+                
+              </div>
+              <div class="Tool-item">
+                <img src="/images/flutter.png" class="Tools-logo"/>
+                
+              </div>
+              <div class="Tool-item">
+                <img src="/images/javascript.png" class="Tools-logo"/>
+                
+              </div>  
+              <div class="Tool-item"><img src="/images/kotlin.png" class="Tools-logo"/>
+              </div>
+              <div class="Tool-item"><img src="/images/java.png" class="Tools-logo"/>
+                </div>
+              <div class="Tool-item"><img src="/images/djangoproject.png" class="Tools-logo"/>
+                </div>  
+              <div class="Tool-item"><img src="/images/adobe-photoshop.png" class="Tools-logo"/>
+                </div>
+              <div class="Tool-item"><img src="/images/adobe-illustrator.png" class="Tools-logo"/>
+                </div>
+              <div class="Tool-item"><img src="/images/python.png" class="Tools-logo"/>
+                </div>  
+              <div class="Tool-item"><img src="/images/html.png" class="Tools-logo"/>
+</div>
+              <div class="Tool-item"><img src="/images/css3.png" class="Tools-logo"/>
+               </div>
+              <div class="Tool-item"><img src="/images/nodejs.png" class="Tools-logo"/>
+              </div> 
+              <div class="Tool-item"><img src="/images/php.png" class="Tools-logo"/>
+               </div> 
+              <div class="Tool-item"><img src="/images/nextjs-icon.png" class="Tools-logo"/>
+                </div> 
+              <div class="Tool-item"><img src="/images/file_type_nestjs_icon_130355.png" class="Tools-logo"/>
+                </div>  
+              <div class="Tool-item"><img src="/images/figma.png" class="Tools-logo"/>
+                </div>
             </div>
             </div>
           </div>
@@ -458,7 +481,7 @@
     <!--  -->
 
     <!-- testimonials -->
-    
+<!--     
     <section class="testimonial text-center">
       <div class="container">
 
@@ -485,13 +508,13 @@
                           <h4>Driector Of HASOI</h4>
                       </div>
                   </div>
-                  <!-- <div class="carousel-item">
-                      <div class="testimonial4_slide">
+                 <div class="carousel-item">
+               <div class="testimonial4_slide">
                           <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
                           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
                           <h4>Client 3</h4>
                       </div>
-                  </div> -->
+                  </div> 
               </div>
               <a class="carousel-control-prev" href="#testimonial4" data-slide="prev">
                   <span class="carousel-control-prev-icon"></span>
@@ -501,9 +524,73 @@
               </a>
           </div>
       </div>
-  </section>
+  </section> -->
+	<section class="testimonials">
+    <div class="heading text-center">
+        <h2>What
+            <span>Clients</span>
+            Says?</h2>
 
-   
+    </div>
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-12">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators-->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <!-- <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <!-- Item-1 -->
+                        <div class="carousel-item active text-center">
+                            <img src="/images//clients(4).jpg" alt="" class="center-block team">
+                            <h3>Sugumar R</h3>
+                            <h4>Managing Director,WEPOPUP - Digital Marketing</h4>
+                            <p>Creative, Dedicated & Flexible Services</p>
+                        </div>
+                        <!-- Item-2 -->
+                        <div class="carousel-item text-center">
+                            <img src="/images/clients(5).jpg" alt="" class="center-block team">
+                            <h3>Saravanan</h3>
+                            <h4>Driector Of HASOI</h4>
+                            <p>Kittivaasal Are Process Owner</p>
+                        </div>
+                        <!-- Item-3 -->
+                        <!-- <div class="carousel-item text-center">
+                            <img src="https://i.ibb.co/8x9xK4H/team.jpg" alt="" class="center-block team">
+                            <h3>Alamin Musa</h3>
+                            <h4>Front End Developer</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                                porttitordapibus dictum.<br>
+                                Fusce faucibus ligula scelerisque, eleifend turpis in</p>
+                        </div> -->
+
+                    </div>
+                    <a
+                        class="carousel-control-prev control"
+                        data-target="#carouselExampleIndicators"
+                        role="button"
+                        data-slide="prev">
+                        <span class="fa fa-angle-left icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a
+                        class="carousel-control-next control"
+                        data-target="#carouselExampleIndicators"
+                        role="button"
+                        data-slide="next">
+                        <span class="fa fa-angle-right icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+   <!-- client slider -->
     <div class="Partner_container">
       <h2 class="partnerhead text-center">Our Clients</h2>
        <section class="customer-logos slider">
@@ -515,13 +602,13 @@
           <div class="slide"><img src="/images/Stitch.png"></div>
           <div class="slide"><img src="/images/farmaq_512_512.png"></div>
           <div class="slide"><img src="/images/Revintech.png"></div>
-          <div class="slide"><img src="/images/gir.png"></div>
+          <!-- <div class="slide"><img src="/images/My project (1).png"></div> -->
        </section>
     </div>
     <!-- clients end -->
     <div class="Kittiteam">
 
-      <h1 class="heading"><span>meet</span>Our Team</h1>
+      <h2 class="heading_Team">Our Team</h2>
       <div class="profiles">
         <div class="profile"><img src="/images/praveen kittivaasal.jpeg" class="profile-img">
     
@@ -883,5 +970,6 @@ setInterval(third, 6000);
     });
 });
 </script>
+
      </body>
 </html>

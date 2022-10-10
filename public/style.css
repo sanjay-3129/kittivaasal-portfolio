@@ -427,7 +427,7 @@ z-index:2;
 }
 
 .sliderWrap img {
-  height: 50vh;
+  height: 43vh;
   margin-top: 40px;
   object-fit: cover;
   border-radius: 10px;
@@ -435,7 +435,7 @@ z-index:2;
 }
 
 .Chimp-btn{
-  width: 54%;
+  width: 62%;
   margin: 10px;
   background-color: transparent;
   border: 1px solid #999;
